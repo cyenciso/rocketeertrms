@@ -1,0 +1,649 @@
+[2021-01-05T18:21:33.377] [ERROR] default - Unable to create table:  ValidationException: Invalid KeySchema: The first KeySchemaElement is not a HASH key type
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-06T00:21:33.372Z,
+  requestId: '1M8SR6FMOM6JTSKA7JDUMAHI5VVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 25.395656961475765
+}
+[2021-01-05T20:06:12.001] [ERROR] default - Error: could not add employee to the database
+[2021-01-05T20:06:12.004] [ERROR] default - InvalidSignatureException: Credential should be scoped to a valid region, not 'us-east-2'. 
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'InvalidSignatureException',
+  time: 2021-01-06T02:06:11.999Z,
+  requestId: 'HGV2HIRAK8FNEJN9QKO705FASBVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 34.44163146261956
+}
+[2021-01-05T20:06:12.008] [ERROR] default - Error: could not add employee to the database
+[2021-01-05T20:06:12.009] [ERROR] default - InvalidSignatureException: Credential should be scoped to a valid region, not 'us-east-2'. 
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'InvalidSignatureException',
+  time: 2021-01-06T02:06:12.008Z,
+  requestId: 'L08HU37ML2Q5DP6B0KICTUHP17VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 45.349876960856484
+}
+[2021-01-05T20:06:12.010] [ERROR] default - Error: could not add employee to the database
+[2021-01-05T20:06:12.010] [ERROR] default - InvalidSignatureException: Credential should be scoped to a valid region, not 'us-east-2'. 
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'InvalidSignatureException',
+  time: 2021-01-06T02:06:12.010Z,
+  requestId: 'AFHL197VMPF08LCSVE2242IQN7VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 33.767872781367295
+}
+[2021-01-05T20:06:12.011] [ERROR] default - Error: could not add employee to the database
+[2021-01-05T20:06:12.011] [ERROR] default - InvalidSignatureException: Credential should be scoped to a valid region, not 'us-east-2'. 
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'InvalidSignatureException',
+  time: 2021-01-06T02:06:12.011Z,
+  requestId: 'K9UL3I1OSS8K96QT3SPEDIO0Q7VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 45.11997485162783
+}
+[2021-01-05T20:06:12.013] [ERROR] default - Error: could not add employee to the database
+[2021-01-05T20:06:12.013] [ERROR] default - InvalidSignatureException: Credential should be scoped to a valid region, not 'us-east-2'. 
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'InvalidSignatureException',
+  time: 2021-01-06T02:06:12.012Z,
+  requestId: 'C0LIMHJD4PSEI15KBMUTROOLCBVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 24.073345601829388
+}
+[2021-01-05T20:36:36.538] [ERROR] default - Error: could not add reimbursement to the database
+[2021-01-05T20:36:36.545] [ERROR] default - ValidationException: One or more parameter values were invalid: Missing the key email in the item
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-06T02:36:36.533Z,
+  requestId: 'TL98IL4F5NOE8SCC2NG0HF2ICVVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 43.04000547478722
+}
+[2021-01-10T19:26:07.374] [ERROR] default - null
+[2021-01-10T19:51:37.664] [ERROR] default - null
+[2021-01-10T20:02:48.894] [ERROR] default - null
+[2021-01-10T20:19:15.859] [ERROR] default - null
+[2021-01-11T17:13:05.081] [ERROR] default - null
+[2021-01-11T20:44:20.952] [ERROR] default - null
+[2021-01-12T14:18:13.653] [ERROR] default - null
+[2021-01-12T14:18:24.306] [ERROR] default - null
+[2021-01-12T17:38:07.169] [ERROR] default - null
+[2021-01-12T17:50:54.282] [ERROR] default - null
+[2021-01-12T18:23:40.973] [ERROR] default - null
+[2021-01-12T20:48:41.231] [ERROR] default - ValidationException: Invalid FilterExpression: Attribute name is a reserved keyword; reserved keyword: role
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-13T02:48:41.229Z,
+  requestId: 'QJM52D6TIA1H2HR34PFHVAGQRNVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 37.19968548878471
+}
+[2021-01-12T20:49:29.949] [ERROR] default - ValidationException: Invalid FilterExpression: An expression attribute name used in the document path is not defined; attribute name: #role
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-13T02:49:29.949Z,
+  requestId: '253DFM3JUMG9R7MOEFT95C1QK3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 35.6336201110367
+}
+[2021-01-12T21:58:01.649] [ERROR] default - null
+[2021-01-12T22:00:13.272] [ERROR] default - null
+[2021-01-13T12:29:02.282] [ERROR] default - null
+[2021-01-13T12:30:07.683] [ERROR] default - null
+[2021-01-13T15:06:39.295] [ERROR] default - null
+[2021-01-13T17:50:08.025] [ERROR] default - null
+[2021-01-13T17:50:21.979] [ERROR] default - null
+[2021-01-13T18:33:15.413] [ERROR] default - null
+[2021-01-13T18:34:44.402] [ERROR] default - null
+[2021-01-13T18:35:23.008] [ERROR] default - null
+[2021-01-13T18:36:53.898] [ERROR] default - null
+[2021-01-13T18:48:40.048] [ERROR] default - null
+[2021-01-13T18:48:53.835] [ERROR] default - null
+[2021-01-13T18:49:25.944] [ERROR] default - null
+[2021-01-13T18:49:39.485] [ERROR] default - null
+[2021-01-13T18:51:10.765] [ERROR] default - null
+[2021-01-13T18:51:45.681] [ERROR] default - null
+[2021-01-13T19:01:25.193] [ERROR] default - null
+[2021-01-13T19:03:31.121] [ERROR] default - null
+[2021-01-13T19:03:38.400] [ERROR] default - null
+[2021-01-13T19:09:19.984] [ERROR] default - null
+[2021-01-13T19:21:49.268] [ERROR] default - null
+[2021-01-13T19:24:07.142] [ERROR] default - null
+[2021-01-14T12:11:08.194] [ERROR] default - null
+[2021-01-14T12:14:33.429] [ERROR] default - null
+[2021-01-14T12:35:45.701] [ERROR] default - null
+[2021-01-14T12:36:30.749] [ERROR] default - null
+[2021-01-14T17:22:40.070] [ERROR] default - null
+[2021-01-14T18:01:40.958] [ERROR] default - null
+[2021-01-14T18:17:55.745] [ERROR] default - null
+[2021-01-14T18:22:37.591] [ERROR] default - null
+[2021-01-14T18:30:56.210] [ERROR] default - null
+[2021-01-14T18:36:24.484] [ERROR] default - null
+[2021-01-14T18:40:54.474] [ERROR] default - null
+[2021-01-14T18:45:14.296] [ERROR] default - null
+[2021-01-14T18:46:49.348] [ERROR] default - null
+[2021-01-14T19:02:03.596] [ERROR] default - null
+[2021-01-14T19:12:05.387] [ERROR] default - null
+[2021-01-14T19:20:34.046] [ERROR] default - null
+[2021-01-14T19:20:42.599] [ERROR] default - null
+[2021-01-14T19:21:35.148] [ERROR] default - null
+[2021-01-14T19:22:07.904] [ERROR] default - null
+[2021-01-14T19:22:22.332] [ERROR] default - null
+[2021-01-14T19:30:27.082] [ERROR] default - null
+[2021-01-14T19:31:16.749] [ERROR] default - null
+[2021-01-14T19:32:37.079] [ERROR] default - null
+[2021-01-14T19:35:40.229] [ERROR] default - null
+[2021-01-14T19:35:57.546] [ERROR] default - null
+[2021-01-14T19:36:43.268] [ERROR] default - null
+[2021-01-14T19:42:12.620] [ERROR] default - null
+[2021-01-14T19:58:13.133] [ERROR] default - null
+[2021-01-14T20:08:21.937] [ERROR] default - null
+[2021-01-14T20:08:36.623] [ERROR] default - null
+[2021-01-15T09:33:23.424] [ERROR] default - null
+[2021-01-15T09:42:00.441] [ERROR] default - null
+[2021-01-15T09:42:16.337] [ERROR] default - null
+[2021-01-15T09:42:36.087] [ERROR] default - null
+[2021-01-15T13:11:24.503] [ERROR] default - null
+[2021-01-15T13:22:11.282] [ERROR] default - null
+[2021-01-15T13:24:16.043] [ERROR] default - null
+[2021-01-15T13:25:31.994] [ERROR] default - null
+[2021-01-15T13:41:33.220] [ERROR] default - null
+[2021-01-15T13:41:43.768] [ERROR] default - ValidationException: ExpressionAttributeNames contains invalid key: Syntax error; key: "statusOf"
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-15T19:41:43.767Z,
+  requestId: 'SSKPMNP72AST041ILQ4UFTK7KFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 26.19095816929178
+}
+[2021-01-15T13:41:45.917] [ERROR] default - null
+[2021-01-15T14:19:29.853] [ERROR] default - null
+[2021-01-15T14:19:47.246] [ERROR] default - null
+[2021-01-15T14:19:54.648] [ERROR] default - ValidationException: ExpressionAttributeNames contains invalid key: Syntax error; key: "statusOf"
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-15T20:19:54.646Z,
+  requestId: 'ODNSBTC9T0DEFL37FJASAJOUS7VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 6.9996670957549245
+}
+[2021-01-15T14:19:56.192] [ERROR] default - null
+[2021-01-15T14:24:21.387] [ERROR] default - null
+[2021-01-15T14:44:06.481] [ERROR] default - null
+[2021-01-15T15:35:21.126] [ERROR] default - null
+[2021-01-15T15:38:37.036] [ERROR] default - null
+[2021-01-15T15:38:47.769] [ERROR] default - null
+[2021-01-15T15:39:23.241] [ERROR] default - null
+[2021-01-15T15:47:23.623] [ERROR] default - ValidationException: ExpressionAttributeNames contains invalid key: Syntax error; key: "statusOf"
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-15T21:47:23.621Z,
+  requestId: '5BMQ118FLHTL81AAE6BI5U1NCBVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 23.285532859458137
+}
+[2021-01-15T15:47:23.917] [ERROR] default - ValidationException: ExpressionAttributeValues must not be empty
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-15T21:47:23.917Z,
+  requestId: '093690F7E4GDOC9RUVI9NCLGFFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 13.771643903073883
+}
+[2021-01-15T15:47:28.283] [ERROR] default - null
+[2021-01-15T15:51:58.727] [ERROR] default - null
+[2021-01-15T15:52:46.357] [ERROR] default - null
+[2021-01-15T15:52:55.057] [ERROR] default - ValidationException: ExpressionAttributeNames contains invalid key: Syntax error; key: "statusOf"
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-15T21:52:55.057Z,
+  requestId: '8PM0SRJGOIQIA47I7DRJMDTPK3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 39.08990010621862
+}
+[2021-01-15T15:52:55.322] [ERROR] default - ValidationException: ExpressionAttributeValues must not be empty
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-15T21:52:55.322Z,
+  requestId: 'IIG8ITHMPL5KU5A0I9S683I81BVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 23.619740975820346
+}
+[2021-01-15T15:56:02.125] [ERROR] default - null
+[2021-01-15T15:56:25.228] [ERROR] default - null
+[2021-01-15T15:56:35.891] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-15T21:56:35.889Z,
+  requestId: 'JERON087JKFROUEG4E05T1L3KFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 45.29044099355415
+}
+[2021-01-15T15:56:36.156] [ERROR] default - ValidationException: ExpressionAttributeValues must not be empty
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-15T21:56:36.156Z,
+  requestId: 'QTRCH0OL5DFUD3S5DVULELPOQJVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 47.82431480093021
+}
+[2021-01-15T16:01:19.511] [ERROR] default - null
+[2021-01-15T16:01:25.287] [ERROR] default - null
+[2021-01-15T16:02:49.568] [ERROR] default - null
+[2021-01-15T16:03:39.289] [ERROR] default - null
+[2021-01-15T16:19:04.378] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-15T22:19:04.377Z,
+  requestId: '5L80VFILKHMQQGM965L1BB83N7VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 32.07080352003712
+}
+[2021-01-15T16:20:45.768] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-15T22:20:45.768Z,
+  requestId: 'DUT1ORGF9E88HVONDGC7NLJNCVVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 10.89202050058573
+}
+[2021-01-15T16:21:02.131] [ERROR] default - null
+[2021-01-15T16:22:18.823] [ERROR] default - null
+[2021-01-15T16:22:31.404] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\cynth\GitRepos\2012-dec14-react\projectOne\back-end\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-15T22:22:31.402Z,
+  requestId: '1GDPEV0D0KGL1CMG2EEO5D6E8NVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 4.66726133768296
+}
+[2021-01-15T16:25:39.603] [ERROR] default - null
+[2021-01-15T16:25:55.583] [ERROR] default - null
+[2021-01-15T16:27:16.333] [ERROR] default - null
+[2021-01-15T16:27:32.656] [ERROR] default - null
+[2021-01-15T16:27:48.941] [ERROR] default - null
+[2021-01-15T16:33:00.091] [ERROR] default - null
+[2021-01-15T16:33:15.830] [ERROR] default - null
+[2021-01-15T16:33:25.446] [ERROR] default - null
+[2021-01-15T16:36:43.059] [ERROR] default - null
+[2021-01-15T16:36:47.930] [ERROR] default - null
+[2021-01-15T16:56:39.567] [ERROR] default - null
+[2021-01-15T16:56:57.840] [ERROR] default - null
+[2021-01-15T16:57:38.082] [ERROR] default - null
+[2021-01-15T16:57:43.895] [ERROR] default - null
+[2021-01-15T17:42:46.320] [ERROR] default - null
+[2021-01-15T17:43:15.487] [ERROR] default - null
+[2021-01-15T17:43:45.451] [ERROR] default - null
+[2021-01-15T17:43:51.544] [ERROR] default - null
+[2021-01-15T17:44:03.764] [ERROR] default - null
+[2021-01-15T18:41:43.082] [ERROR] default - null
+[2021-01-15T18:52:44.557] [ERROR] default - null
+[2021-01-16T10:59:34.678] [ERROR] default - null
+[2021-01-16T11:07:09.063] [ERROR] default - null
+[2021-01-16T11:35:43.114] [ERROR] default - null
+[2021-01-16T11:35:56.689] [ERROR] default - null
+[2021-01-16T11:36:01.818] [ERROR] default - null
+[2021-01-16T14:11:21.581] [ERROR] default - null
+[2021-01-16T14:11:32.544] [ERROR] default - null
+[2021-01-16T14:13:13.472] [ERROR] default - null
+[2021-01-16T14:14:10.201] [ERROR] default - null
+[2021-01-16T14:14:40.049] [ERROR] default - null
+[2021-01-16T14:14:52.006] [ERROR] default - null
+[2021-01-16T14:15:05.883] [ERROR] default - null
+[2021-01-16T14:15:41.797] [ERROR] default - null
+[2021-01-16T14:18:07.620] [ERROR] default - null
+[2021-01-16T14:48:00.790] [ERROR] default - null
+[2021-01-16T14:48:23.237] [ERROR] default - null
+[2021-01-16T14:48:30.083] [ERROR] default - null
+[2021-01-16T14:48:41.644] [ERROR] default - null
+[2021-01-16T14:58:29.788] [ERROR] default - null
+[2021-01-16T14:59:23.240] [ERROR] default - null
+[2021-01-16T14:59:29.414] [ERROR] default - null
+[2021-01-16T14:59:39.808] [ERROR] default - null
+[2021-01-16T15:04:15.473] [ERROR] default - null
+[2021-01-16T15:04:30.338] [ERROR] default - null
+[2021-01-16T15:06:18.420] [ERROR] default - null
+[2021-01-16T15:13:36.956] [ERROR] default - null
+[2021-01-16T15:14:09.867] [ERROR] default - null
+[2021-01-16T15:14:33.721] [ERROR] default - null
+[2021-01-16T15:56:59.702] [ERROR] default - null
+[2021-01-16T15:57:51.753] [ERROR] default - null
+[2021-01-16T15:57:58.633] [ERROR] default - null
+[2021-01-16T15:58:10.128] [ERROR] default - null
+[2021-01-16T15:58:30.214] [ERROR] default - null
+[2021-01-16T16:00:59.634] [ERROR] default - null
+[2021-01-16T16:01:14.677] [ERROR] default - null
+[2021-01-16T16:33:37.316] [ERROR] default - null
+[2021-01-16T16:42:36.069] [ERROR] default - null
+[2021-01-16T16:43:06.364] [ERROR] default - null
+[2021-01-16T16:48:31.661] [ERROR] default - null
+[2021-01-16T16:49:04.014] [ERROR] default - null
+[2021-01-16T16:49:45.122] [ERROR] default - null
+[2021-01-16T16:49:57.149] [ERROR] default - null
+[2021-01-16T17:53:32.835] [ERROR] default - null
+[2021-01-16T17:53:43.649] [ERROR] default - null
+[2021-01-16T17:58:58.812] [ERROR] default - null
+[2021-01-16T17:59:55.150] [ERROR] default - null
+[2021-01-16T18:00:03.197] [ERROR] default - null
+[2021-01-16T18:00:17.267] [ERROR] default - null
+[2021-01-16T18:00:29.245] [ERROR] default - null
+[2021-01-16T18:05:17.864] [ERROR] default - null
+[2021-01-16T18:05:29.833] [ERROR] default - null
+[2021-01-17T12:32:09.739] [ERROR] default - null
+[2021-01-17T12:33:47.893] [ERROR] default - null
+[2021-01-17T13:34:30.056] [ERROR] default - null
+[2021-01-17T14:20:00.729] [ERROR] default - null
+[2021-01-17T14:31:00.127] [ERROR] default - null
+[2021-01-18T14:23:39.319] [ERROR] default - null
+[2021-01-18T14:29:00.905] [ERROR] default - null
+[2021-01-18T14:32:12.451] [ERROR] default - null
+[2021-01-18T14:33:52.763] [ERROR] default - null
+[2021-01-18T14:34:02.110] [ERROR] default - null
+[2021-01-18T14:55:15.700] [ERROR] default - null
+[2021-01-18T15:05:17.937] [ERROR] default - null
+[2021-01-18T15:30:24.647] [ERROR] default - null
+[2021-01-18T15:35:05.889] [ERROR] default - null
+[2021-01-18T15:36:33.577] [ERROR] default - null
+[2021-01-18T15:37:27.952] [ERROR] default - null
+[2021-01-18T15:37:46.795] [ERROR] default - null
+[2021-01-18T15:42:22.177] [ERROR] default - null
+[2021-01-18T15:43:54.853] [ERROR] default - null
+[2021-01-18T15:52:32.554] [ERROR] default - null
+[2021-01-18T15:52:45.804] [ERROR] default - null
+[2021-01-18T15:53:03.277] [ERROR] default - null
+[2021-01-18T15:53:16.141] [ERROR] default - null
+[2021-01-18T15:53:22.617] [ERROR] default - null
+[2021-01-18T15:54:46.032] [ERROR] default - null
+[2021-01-18T15:55:05.636] [ERROR] default - null
+[2021-01-18T15:55:18.204] [ERROR] default - null
+[2021-01-18T15:58:38.787] [ERROR] default - null
+[2021-01-18T15:59:46.498] [ERROR] default - null
+[2021-01-18T15:59:57.495] [ERROR] default - null
+[2021-01-18T16:00:49.701] [ERROR] default - null
+[2021-01-18T16:01:04.598] [ERROR] default - null
+[2021-01-18T16:01:23.751] [ERROR] default - null
+[2021-01-18T16:02:39.536] [ERROR] default - null
+[2021-01-18T16:02:51.783] [ERROR] default - null
+[2021-01-18T16:03:21.808] [ERROR] default - null
+[2021-01-18T16:03:47.593] [ERROR] default - null
+[2021-01-18T16:04:10.394] [ERROR] default - null
+[2021-01-18T16:17:33.452] [ERROR] default - null
+[2021-01-18T16:17:46.334] [ERROR] default - null
+[2021-01-18T16:22:36.364] [ERROR] default - null
+[2021-01-18T16:22:47.307] [ERROR] default - null
+[2021-01-18T16:22:58.726] [ERROR] default - null
+[2021-01-18T16:23:25.657] [ERROR] default - null
+[2021-01-18T16:24:32.061] [ERROR] default - null
+[2021-01-18T16:24:42.818] [ERROR] default - null
+[2021-01-18T16:25:07.349] [ERROR] default - null
+[2021-01-18T16:35:51.604] [ERROR] default - null
+[2021-01-18T16:36:43.617] [ERROR] default - null
+[2021-01-18T16:36:52.432] [ERROR] default - null
+[2021-01-18T16:47:04.108] [ERROR] default - null
+[2021-01-18T16:47:51.018] [ERROR] default - null
+[2021-01-18T16:48:02.236] [ERROR] default - null
+[2021-01-18T16:51:47.263] [ERROR] default - null
+[2021-01-18T16:52:03.977] [ERROR] default - null
+[2021-01-18T16:52:21.425] [ERROR] default - null
+[2021-01-18T16:52:40.307] [ERROR] default - null
+[2021-01-18T16:53:51.207] [ERROR] default - null
+[2021-01-18T16:54:01.895] [ERROR] default - null
+[2021-01-18T17:05:26.598] [ERROR] default - null
+[2021-01-18T17:06:13.513] [ERROR] default - null
+[2021-01-18T17:06:21.904] [ERROR] default - null
+[2021-01-18T17:11:14.710] [ERROR] default - null
+[2021-01-18T17:12:50.577] [ERROR] default - null
+[2021-01-18T17:13:00.089] [ERROR] default - null
+[2021-01-18T17:13:09.217] [ERROR] default - null
+[2021-01-18T17:13:22.097] [ERROR] default - null
+[2021-01-18T17:13:37.268] [ERROR] default - null
+[2021-01-18T17:14:38.645] [ERROR] default - null
+[2021-01-18T17:14:52.603] [ERROR] default - null
+[2021-01-18T17:14:56.962] [ERROR] default - null
+[2021-01-18T17:15:11.473] [ERROR] default - null
+[2021-01-18T17:15:21.799] [ERROR] default - null
+[2021-01-18T17:15:35.983] [ERROR] default - null
+[2021-01-18T17:17:27.632] [ERROR] default - null
+[2021-01-18T17:17:34.665] [ERROR] default - null
+[2021-01-18T17:17:42.601] [ERROR] default - null
+[2021-01-18T17:24:17.162] [ERROR] default - null
+[2021-01-18T17:24:34.911] [ERROR] default - null
+[2021-01-18T17:24:40.936] [ERROR] default - null
+[2021-01-18T17:24:55.630] [ERROR] default - null
+[2021-01-18T17:32:06.931] [ERROR] default - null
+[2021-01-18T17:41:47.365] [ERROR] default - null
+[2021-01-18T17:42:08.677] [ERROR] default - null
+[2021-01-18T17:42:23.063] [ERROR] default - null
+[2021-01-18T17:42:30.682] [ERROR] default - null
+[2021-01-19T14:30:08.976] [ERROR] default - null
+[2021-01-19T14:30:40.139] [ERROR] default - null
+[2021-01-19T14:31:11.447] [ERROR] default - null
+[2021-01-19T14:31:34.088] [ERROR] default - null
+[2021-01-19T14:31:42.820] [ERROR] default - null
+[2021-01-19T14:32:03.039] [ERROR] default - null
+[2021-01-19T14:32:15.840] [ERROR] default - null
+[2021-01-19T14:32:34.706] [ERROR] default - null
+[2021-01-19T14:32:46.259] [ERROR] default - null
+[2021-01-19T14:32:57.881] [ERROR] default - null
+[2021-01-19T14:33:14.304] [ERROR] default - null
+[2021-01-19T14:34:14.054] [ERROR] default - null
+[2021-01-19T14:35:05.557] [ERROR] default - null
+[2021-01-19T14:35:20.126] [ERROR] default - null
+[2021-01-19T14:37:21.490] [ERROR] default - null
+[2021-01-19T14:37:38.166] [ERROR] default - null
+[2021-01-19T14:48:04.007] [ERROR] default - null
+[2021-01-19T14:54:24.954] [ERROR] default - null
+[2021-01-19T15:12:35.151] [ERROR] default - null
+[2021-01-20T09:24:40.199] [ERROR] default - null
+[2021-01-20T09:25:13.808] [ERROR] default - null
+[2021-01-20T09:25:47.732] [ERROR] default - null
+[2021-01-20T09:26:01.608] [ERROR] default - null
+[2021-01-20T09:26:21.259] [ERROR] default - null
+[2021-01-20T09:26:36.356] [ERROR] default - null
+[2021-01-20T09:26:48.625] [ERROR] default - null
+[2021-01-20T09:27:02.216] [ERROR] default - null
+[2021-01-20T09:27:17.443] [ERROR] default - null
+[2021-01-20T09:27:45.826] [ERROR] default - null
+[2021-01-20T09:28:05.761] [ERROR] default - null
+[2021-01-20T09:28:30.231] [ERROR] default - null
