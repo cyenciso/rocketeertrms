@@ -16,6 +16,7 @@ TRMS, or Tuition Reimbursement Management System is a full-stack web application
 * Enzyme
 
 ## Getting Started
+* Create a new local project folder and use the command `git clone` with this repository's htttps link afterward.
 * In VSCode, create a split terminal.
 * In one terminal, use the commands `cd back-end` and `npm install` to install dependencies.
 * In the same terminal, use the commands `node ./build/database/employeeTable.js`, `node ./build/database/gradingFormatTable.js`, and `node ./build/database/requestTable.js` to create the database tables. Note: You will need an AWS Account and the region is currently set to 'us-west-2'.
