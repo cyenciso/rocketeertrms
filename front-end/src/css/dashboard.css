@@ -1,0 +1,31 @@
+#dashboardContainer {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+#dashboardHeader {
+    background-color: #413C58;
+    color: white;
+}
+
+#dashboardBody {
+    background-color:#ADAABF;
+    box-shadow: 0 10px 10px 0 rgb(151, 151, 151);
+    border-bottom: 1rem solid #413C58;
+}
+
+#culprit {
+    margin: 0;
+    width: 100%;
+}
+
+#accordianRow {
+    margin: 0;
+    width: 100%;
+}
+
+#buttonRow {
+    margin: 0;
+    width: 100%;
+    padding-bottom: 1rem;
+}

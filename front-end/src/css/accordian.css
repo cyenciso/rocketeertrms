@@ -1,0 +1,18 @@
+.accordian {
+    padding: 0;
+    border-bottom: 0.01rem solid black;
+}
+
+#buttonRow {
+    width: 100%;
+}
+
+.dataRow {
+    margin: 0.01rem;
+    background-color: white;
+}
+
+#urgentCol {
+    color: red;
+    font-weight: bold;
+}

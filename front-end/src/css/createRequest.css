@@ -1,0 +1,26 @@
+#createRequestContainer {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+#reimbursementHeader {
+    background-color: #413C58;
+    color: white;
+}
+
+#reimbursementBody {
+    background-color:#ADAABF;
+    box-shadow: 0 10px 10px 0 rgb(151, 151, 151);
+    border-bottom: 1rem solid #413C58;
+    min-height: 20rem;
+}
+
+#createRequestButtonRow {
+    margin: 0;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.alertText {
+    color: red;
+}

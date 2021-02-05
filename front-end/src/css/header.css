@@ -1,0 +1,10 @@
+#header {
+    background-color: #413C58;
+    color:  white;
+    box-shadow: 0 10px 10px 0 rgb(151, 151, 151);
+}
+
+.active {
+    color: white;
+    font-weight: bold;
+}
