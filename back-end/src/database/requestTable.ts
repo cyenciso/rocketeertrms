@@ -60,6 +60,6 @@ const requestSchema = {
 
 /* setup ------------------------------------------------------------------------------------------ */
 
-//createTable();
+createTable();
 
 //deleteTable();
